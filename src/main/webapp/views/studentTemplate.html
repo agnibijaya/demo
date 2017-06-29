@@ -1,0 +1,38 @@
+<div class="tableContainer">
+      <table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Roll No.</th>
+    <th>View Details</th>
+  </tr>
+  <tr ng-repeat="m in data.StudentData">
+    <td>
+      <div> {{m.studentName}}</div>
+      <div ng-show="m.expanded==true">Adress:<span> {{m.Address}}</span>
+      </div>
+    </td>
+    <td >
+      <div>{{m.RollNo}}</div>
+
+      <div ng-show="m.expanded==true">Mark Obtained:
+        <div>
+          <table style="width:100%">
+  <tr>
+    <th>Subject</th>
+    <th>Marks</th>
+  </tr>
+  <tr ng-repeat="n in m.MarksObt">
+    <td>{{n.subName}}</td>
+    <td>{{n.Marks}}</td>
+  </tr>
+</table>
+        </div>
+      </div>
+    </td>
+    <td>
+     <span class="bttn" ng-hide="m.expanded==true" ng-click=setExpanded(m)>Moredetails</span>
+      <span class="bttn" ng-show="m.expanded==true" ng-click=setClosed(m)>Lessdetails</span>
+    </td>
+  </tr>
+</table>
+  </div>

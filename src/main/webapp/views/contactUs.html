@@ -1,0 +1,10 @@
+
+    <div class="ContactUs" ng-controller="contactUsController">
+            <div class="bodyhead"> I am here in ContactUs</div>
+          <!--  <span class="bttn" ng-class="{Selected:tabsel=='tab1'}" ng-click="tabSelected('tab1')">tab1</span>
+            <span class="bttn" ng-class="{Selected:tabsel=='tab2'}" ng-click="tabSelected('tab2')">tab2</span>
+            <span class="bttn" ng-class="{Selected:tabsel=='tab3'}" ng-click="tabSelected('tab3')">tab3</span>
+            <span class="bttn" ng-class="{Selected:tabsel=='tab4'}" ng-click="tabSelected('tab4')">tab4</span>-->
+          <span class="bttn" ng-class="{Selected:tabsel== className}" ng-click="selectedClassFunct(className)" ng-repeat="className in data">{{className.className}}</span>
+          <student data="tabsel"></student>
+    </div>

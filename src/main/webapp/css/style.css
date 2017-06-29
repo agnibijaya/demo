@@ -1,0 +1,54 @@
+body,div,li,ul,table{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  background: #ccc;
+  padding: 10px 3px;
+}
+.bttn{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f3b500;
+  color: white;
+  cursor:pointer
+}
+.bttn:hover{
+  background-color: #f3b;
+  color: white;
+}
+.bttn.Selected{
+  background-color: #f3b;
+  color: white;
+}
+.home{
+  margin:10px 0px;
+  height:500px;
+}
+.Product{
+  margin:10px 0px;
+  height:500px;
+}
+.AboutUs{
+  margin:10px 0px;
+  height:500px;
+}
+.ContactUs{
+  margin:10px 0px;
+  height:500px;
+}
+
+.footer{
+  background-color: #ccc;
+}
+.bodyhead{
+  margin-bottom: 10px;
+}
+.tableContainer{
+      margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,85 @@
+[{
+  "className":"10th",
+  "StudentData":[{
+    "studentName":"abc",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  },
+  {
+    "studentName":"def",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  }]
+
+},
+{"className":"11th",
+  "StudentData":[{
+    "studentName":"11abc",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  },
+  {
+    "studentName":"11def",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  }]
+
+},
+{"className":"12th",
+  "StudentData":[{
+    "studentName":"12abc",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  },
+  {
+    "studentName":"12def",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  }]
+
+},
+{"className":"13th",
+  "StudentData":[{
+    "studentName":"13abc",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  },
+  {
+    "studentName":"13def",
+    "RollNo":"20",
+    "Address":"Bangalore",
+    "expanded":true,
+    "MarksObt":[{"subName":"Maths","Marks":"45"},
+  {"subName":"Phy","Marks":"45"},
+{"subName":"Che","Marks":"45"}]
+  }]
+
+}]

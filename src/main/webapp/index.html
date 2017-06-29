@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Tutorial</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <script src="js/studentDirective.js"></script>
+    <script src="js/myapp.js"></script>
+    
+    <script src="js/services/Service.js"></script>
+    <script src="js/controller/dirctiveController.js"></script>
+    <script src="js/controller/homeController.js"></script>
+    <script src="js/controller/aboutUsController.js"></script>
+    <script src="js/controller/productController.js"></script>
+    <script src="js/controller/contactUsController.js"></script>
+  </head>
+  <body ng-app="myapp">
+    <div class="header">
+      <a class="bttn selected" ui-sref="home">Home</a>
+      <a class="bttn" ui-sref="product">Product</a>
+      <a class="bttn" ui-sref="aboutUs">AboutUs</a>
+      <a class="bttn" ui-sref="contactUs">ContactUs</a>
+    </div>
+    <div ui-view></div>
+
+    <div class="footer">
+      This is the footer for your html
+    </div>
+
+  </body>
+</html>
